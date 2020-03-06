@@ -1,0 +1,14 @@
+/* pages/picture/picture.wxss */
+.centerPicture{
+  display:flex;                  
+  justify-content: center;    
+}
+
+.fenGeLine{
+  height: 100%;
+}
+
+.commentsForPicture{
+  display:flex;
+  justify-content: center; 
+}

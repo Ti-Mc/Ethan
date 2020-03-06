@@ -1,18 +1,10 @@
 {
   "pages": [
     "pages/login/login",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/varia/varia",
+    "pages/diary/diary"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -22,5 +14,34 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+
+    "list": [
+      {
+        "pagePath": "pages/picture/picture",
+        "text": "图片",
+        "iconPath" : "images/icons/picture2.png",
+        "selectedIconPath" : "images/icons/picture1.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath" : "images/icons/video2.png",
+        "selectedIconPath" : "images/icons/video1.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "日记",
+        "iconPath" : "images/icons/diary2.png",
+        "selectedIconPath" : "images/icons/diary1.png"
+      },
+      {
+        "pagePath": "pages/varia/varia",
+        "text": "杂物",
+        "iconPath" : "images/icons/varia2.png",
+        "selectedIconPath" : "images/icons/varia1.png"
+      }
+    ]
+  }
 }

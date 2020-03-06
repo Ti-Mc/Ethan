@@ -1,0 +1,9 @@
+
+<view wx:for="{{pictureArray}}" wx:for-item="item" wx:key="unique">
+  <view class="centerPicture">
+    <image src="{{item.src}}" mode="aspectFit"></image>
+  </view>
+  <text class="fenGeLine">-----------------------------------------------------------</text>
+  <text class="commentsForPicture">{{item.text}} ({{item.date}})</text>
+   <text class="fenGeLine">-----------------------------------------------------------</text>
+</view>
